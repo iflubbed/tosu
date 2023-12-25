@@ -1,0 +1,13 @@
+[package]
+name = "tosu"
+version = "0.1.0"
+edition = "2021"
+description  = "client for playing osu! maps in terminal (many warnings and ugly code because it's WIP!!!)"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crossterm = "0.27.0"
+ratatui = "0.25.0"
+rodio = "0.17.3"
